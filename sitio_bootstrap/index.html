@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap" rel="stylesheet">
+    <title>Bootstrap site</title>
+</head>
+
+<body>
+    <header>
+
+
+        <div class="jumbotron bg-color p-5">
+            <h1 class="display-2 d-flex justify-content-center">Pet Rock</h1>
+            <p class="lead d-flex justify-content-center">Adopta a la mascota perfecta.</p>
+        </div>
+
+    </header>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Pet Rock</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#clientes">Clientes</a>
+                    <a class="nav-link" href="#productos">PetRock Usb</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center ">
+            <div class="col-12 col-lg-4 gy-5">
+                <div class="container">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Pet Rock</h5>
+                            <p class="card-text">Este es el maravilloso kit de la pet rock, el cual consiste en su
+                                cajita, hecha para que respire, su cama de paja y la mascota pet rock.</p>
+                            <img src="./img/petrock.jpg" class="card-img-top" alt="Imagen de Pet Rock">
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Imagen del kit básico de petrock</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h5 class="text-center mt-5" id="clientes">Clientes Satisfechos</h5>
+                        <div class="col-12 gy-5 ">
+                            <div class="list-group" id="list-tab" role="tablist">
+                                <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                    data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">Selena
+                                    Gomez</a>
+                                <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                    data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Henry
+                                    Cavill</a>
+                                <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                    data-bs-toggle="list" href="#list-messages" role="tab"
+                                    aria-controls="messages">Salma Hayek</a>
+                                <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                    data-bs-toggle="list" href="#list-settings" role="tab"
+                                    aria-controls="settings">Johnny Depp</a>
+                            </div>
+                        </div>
+                        <div class="col-12 gy-5">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                                    aria-labelledby="list-home-list">
+                                    <img src="./img/selena.jpg" class="card-img-top imgClientes"
+                                        alt="Imagen de Pet Rock">
+                                </div>
+                                <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                                    aria-labelledby="list-profile-list">
+                                    <img src="./img/henry.jpg" class="card-img-top imgClientes"
+                                        alt="Imagen de Pet Rock">
+                                </div>
+                                <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                                    aria-labelledby="list-messages-list">
+                                    <img src="./img/salma.jpg" class="card-img-top imgClientes"
+                                        alt="Imagen de Pet Rock">
+                                </div>
+                                <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                                    aria-labelledby="list-settings-list">
+                                    <img src="./img/depp.jpg" class="card-img-top imgClientes" alt="Imagen de Pet Rock">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="col-12 col-lg-8 gy-5">
+                <div class="container ">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">¿Por qué todos aman a Pet Rock?</h3>
+                            <p class="card-text"><small class="text-muted">Última actualización, hace 3 minutos.</small>
+                            </p>
+                            <img src="./img/petrock1.jpg" class="card-img-bottom" alt="ventajas petrock">
+                        </div>
+                        <h5 class="card-title m-3">4 Ventajas sobre otras mascotas</h5>
+                        <p class="card-text">
+                        <ul>
+                            <li>No es necesario alimentarlos.</li>
+                            <li>No es necesario limpiar sus desechos.</li>
+                            <li>No es necesario llevarlos al veterinario.</li>
+                            <li>No sufren con daños y golpes.</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="container mt-5" id="productos">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Lo que esperabas, tu Pet Rock, ahora 2.0</h3>
+                            <p class="card-text"><small class="text-muted">Última actualización, hace una hora.</small>
+                            </p>
+                            <img src="./img/petrock2.jpg" class="card-img-bottom" alt="petrock usb">
+                        </div>
+                        <h5 class="card-title m-3">Con un poderoso dispositivo usb.</h5>
+                        <p class="card-text m-3">
+                            Tu Pet Rock, como nunca antes lo pensaste. Y es que, ¿acaso tus mascotas tradicionales
+                            cuentan con puertos usb? </p>
+                        <p class="card-text m-3">
+                            Pet rock se une a la revolución 2.0 y por solo un extra, puedes pedirlo con conexión a usb.
+                            El conector es un cable USB 3.0, enchapado en aluminio, es resistente y se puede conectar a
+                            computadores y otros dispositivos compatibles con la entrada.
+                        </p>
+                        <p class="card-text m-3">Únete a la modernidad y se parte de la revolución de Pet Rock.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <footer class="page-footer bg-primary font-small blue mt-5 pt-4" id="contacto">
+        <div class="container-fluid text-center text-white text-md-left"></div>
+
+
+        <div class="footer-copyright text-white text-center py-3">© 2021 Copyright: Cristian Iriarte
+            <a href=""> </a>
+        </div>
+
+
+        <h3 class="text-white text-center">Contáctanos</h3>
+        <div class="container d-flex justify-content-center">
+            <img class="rSocial m-5 mt-2" src="./img/facebook-brands.svg" alt="Facebook">
+            <img class="rSocial m-5 mt-2" src="./img/twitter-brands.svg" alt="Twitter">
+            <img class="rSocial m-5 mt-2" src="./img/instagram-brands.svg" alt="Instagram">
+        </div>
+
+
+
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

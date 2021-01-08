@@ -1,0 +1,15 @@
+{
+  "name": "sitio_bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "purge": "purgecss --css sass/style.css --content index.html -o purge"
+  },
+  "author": "",
+  "license": "ISC"
+}

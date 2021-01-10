@@ -7,11 +7,36 @@
     <title>Document</title>
 </head>
 
+<style>
+    .flex {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    img {
+        max-width: 300px;
+    }
+
+    h1 {
+        text-align: center;
+        padding-bottom: 3rem;
+    }
+</style>
+
 <body>
+    <h1>Click en las imágenes para revisar los sitios</h1>
+    <div class="flex">
 
-    <a href="./sitio_bootstrap/index.html"></a>
-    <a href="./sitio_normal/index.html"></a>
-
+        <div class="uno">
+            <a href="./sitio_bootstrap/index.html"><img src="2.jpg" alt=""></a>
+            <p>Sitio Bootstrap</p>
+        </div>
+        <div class="dos">
+            <a href="https://rodrigorojasdisenador.github.io/EvaluacionModulo02/"><img src="1.jpg" alt=""></a>
+            <p>Sitio CSS</p>
+        </div>
+    </div>
 </body>
 
 </html>
